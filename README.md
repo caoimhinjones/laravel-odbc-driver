@@ -10,7 +10,7 @@ ODBC Driver for Laravel v6.0+
 
 ### Install package with composer
 ```
-composer require BKD/laravel-odbc-driver
+composer require be-know-do/laravel-odbc-driver
 ```
 
 #### Run composer update
