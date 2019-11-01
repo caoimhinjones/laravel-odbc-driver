@@ -3,22 +3,24 @@
 namespace BKD\ODBCDriver\Grammars;
 
 use Illuminate\Database\Query\Grammars\Grammar;
+use Illuminate\Database\Query\Builder;
 
 /**
  * Attunity Grammar
  */
 class Attunity extends Grammar
 {
+
     /**
      * Compile the "limit" portions of the query.
      *
-     * @param  Illuminate\Database\Query\Builder  $query
+     * @param  \Illuminate\Database\Query\Builder  $query
      * @param  int  $limit
      * @return string
      */
-    protected function compileLimit(\Illuminate\Database\Query\Builder $query, $limit)
+    protected function compileLimit(Builder $query, $limit)
     {
-        return "LIMIT TO $limit ROWS";
+        return 'limit to ' . (int) $limit . ' rows';
     }
 
     /**
