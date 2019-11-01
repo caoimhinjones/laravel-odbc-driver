@@ -3,6 +3,7 @@
 namespace BKD\ODBCDriver\Grammars;
 
 use Illuminate\Database\Query\Grammars\Grammar;
+use Illuminate\Database\Query\Builder;
 
 /**
  * Attunity Grammar
