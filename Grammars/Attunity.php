@@ -29,7 +29,7 @@ class Attunity extends Grammar
      * @param  Illuminate\Database\Query\Builder
      * @return string
      */
-    public function compileSelect(\Illuminate\Database\Query\Builder $query)
+    public function compileSelect(Builder $query)
     {
         $components = $this->compileComponents($query);
 
@@ -50,7 +50,7 @@ class Attunity extends Grammar
      * @param  array  $components
      * @return string
      */
-    protected function compileAnsiOffset(\Illuminate\Database\Query\Builder $query, $components)
+    protected function compileAnsiOffset(Builder $query, $components)
     {
         // An ORDER BY clause is required to make this offset query work, so if one does
         // not exist we'll just create a dummy clause to trick the database and so it
@@ -130,7 +130,7 @@ class Attunity extends Grammar
      * @param  int  $offset
      * @return string
      */
-    protected function compileOffset(\Illuminate\Database\Query\Builder $query, $offset)
+    protected function compileOffset(Builder $query, $offset)
     {
         return '';
     }
