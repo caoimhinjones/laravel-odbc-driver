@@ -5,20 +5,21 @@ namespace BKD\ODBCDriver\Grammars;
 use Illuminate\Database\Query\Grammars\Grammar;
 
 /**
- * DB2 Grammar
+ * Attunity Grammar
  */
-class DB2 extends Grammar
+class Attunity extends Grammar
 {
+
     /**
      * Compile the "limit" portions of the query.
      *
-     * @param  Illuminate\Database\Query\Builder  $query
+     * @param  \Illuminate\Database\Query\Builder  $query
      * @param  int  $limit
      * @return string
      */
-    protected function compileLimit(\Illuminate\Database\Query\Builder $query, $limit)
+    protected function compileLimit(Builder $query, $limit)
     {
-        return "FETCH FIRST $limit ROWS ONLY";
+        return 'limit to ' . (int) $limit . ' rows';
     }
 
     /**
