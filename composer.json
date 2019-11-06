@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "BKD\\ODBCDriver": "src/"
+            "BKD\\ODBCDriver\\": "src/"
         }
     },
     "extra": {
