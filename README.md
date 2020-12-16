@@ -10,7 +10,7 @@ ODBC Driver for Laravel v6.0+
 
 ### Install package with composer
 ```
-composer require be-know-do/laravel-odbc-driver
+composer require caoimhinjones/laravel-odbc-driver
 ```
 
 #### Run composer update
@@ -40,3 +40,4 @@ composer update
 
 ### Forked from:
 * Adrian Gomez @ https://github.com/AdrianGomezCL/laravel-odbc-driver
+* BeKnowDo @ https://github.com/BeKnowDo/laravel-odbc-driver
