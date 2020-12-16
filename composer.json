@@ -1,5 +1,5 @@
 {
-    "name": "be-know-do/laravel-odbc-driver",
+    "name": "caoimhinjones/laravel-odbc-driver",
     "description": "ODBC driver for Laravel 6.x",
     "type": "library",
     "keywords": [
@@ -19,13 +19,13 @@
     },
     "autoload": {
         "psr-0": {
-            "BKD\\ODBCDriver\\": "src/"
+            "CaoimhinJones\\ODBCDriver\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "BKD\\ODBCDriver\\ODBCDriverServiceProvider"
+                "CaoimhinJones\\ODBCDriver\\ODBCDriverServiceProvider"
             ]
         }
     }
