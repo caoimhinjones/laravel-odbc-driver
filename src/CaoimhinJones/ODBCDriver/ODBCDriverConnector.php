@@ -1,6 +1,6 @@
 <?php
 
-namespace BKD\ODBCDriver;
+namespace CaoimhinJones\ODBCDriver;
 
 use Illuminate\Support\Arr;
 use Illuminate\Database\Connectors\Connector;

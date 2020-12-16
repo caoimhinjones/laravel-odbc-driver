@@ -1,6 +1,6 @@
 <?php
 
-namespace BKD\ODBCDriver;
+namespace CaoimhinJones\ODBCDriver;
 
 use Illuminate\Database\Connection;
 use Illuminate\Database\Query\Grammars\Grammar;

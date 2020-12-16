@@ -1,6 +1,6 @@
 <?php
 
-namespace BKD\ODBCDriver;
+namespace CaoimhinJones\ODBCDriver;
 
 use Illuminate\Database\Query\Builder;
 use Illuminate\Database\Query\Processors\Processor;

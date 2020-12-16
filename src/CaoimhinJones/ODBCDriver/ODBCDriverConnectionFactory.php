@@ -1,6 +1,6 @@
 <?php
 
-namespace BKD\ODBCDriver;
+namespace CaoimhinJones\ODBCDriver;
 
 use Illuminate\Database\Connectors\ConnectionFactory;
 use Illuminate\Database\Connectors\MySqlConnector;
