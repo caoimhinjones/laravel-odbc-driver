@@ -15,10 +15,10 @@
         }
     ],
     "require": {
-        "php": "^5.3 || ^7.0"
+        "php": "^7.0"
     },
     "autoload": {
-        "psr-4": {
+        "psr-0": {
             "BKD\\ODBCDriver\\": "src/"
         }
     },
