@@ -7,7 +7,7 @@ use Illuminate\Database\Query\Processors\Processor;
 
 /**
  * Class ODBCDriverProcessor
- * @package BKD\ODBCDriver
+ * @package CaoimhinJones\ODBCDriver
  */
 class ODBCDriverProcessor extends Processor
 {

@@ -9,7 +9,7 @@ use PDO;
 
 /**
  * Class ODBCDriverConnector
- * @package BKD\ODBCDriver
+ * @package CaoimhinJones\ODBCDriver
  */
 class ODBCDriverConnector extends Connector implements ConnectorInterface
 {

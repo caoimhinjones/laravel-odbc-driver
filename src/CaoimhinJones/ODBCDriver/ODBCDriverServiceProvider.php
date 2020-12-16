@@ -8,7 +8,7 @@ use Illuminate\Support\ServiceProvider;
 
 /**
  * Class ODBCDriverServiceProvider
- * @package BKD\ODBCDriver
+ * @package CaoimhinJones\ODBCDriver
  */
 class ODBCDriverServiceProvider extends ServiceProvider
 {

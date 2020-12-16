@@ -7,7 +7,7 @@ use Illuminate\Database\Query\Grammars\Grammar;
 
 /**
  * Class ODBCDriverConnection
- * @package BKD\ODBCDriver
+ * @package CaoimhinJones\ODBCDriver
  */
 class ODBCDriverConnection extends Connection
 {

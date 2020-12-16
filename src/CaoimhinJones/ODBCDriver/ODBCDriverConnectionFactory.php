@@ -14,7 +14,7 @@ use Illuminate\Database\SqlServerConnection;
 
 /**
  * Class ODBCDriverConnectionFactory
- * @package BKD\ODBCDriver
+ * @package CaoimhinJones\ODBCDriver
  */
 class ODBCDriverConnectionFactory extends ConnectionFactory
 {
